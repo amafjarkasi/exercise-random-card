@@ -2,13 +2,14 @@
 
 //import 'breathecode-dom'; //DOM override to make JS easier to use
 import "../style/index.scss";
+import "../style/style.css";
 
 function randomSuitInfo() {
   let cardSuit = [
     "&#9824;",
     "<font color=red>&#9829;</font>",
     "&#9827;",
-    "&#9830;"
+    "<font color=red>&#9830;</font>"
   ];
 
   let suitCalc = cardSuit[Math.floor(Math.random() * cardSuit.length)];

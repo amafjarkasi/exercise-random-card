@@ -1,0 +1,11 @@
+.rounded-lg {
+  border-radius: 15px 15px 15px 15px !important;
+}
+
+.bg-success {
+  background-color: #247605 !important;
+}
+
+.display-1 {
+  font-size: 90px !important;
+}
